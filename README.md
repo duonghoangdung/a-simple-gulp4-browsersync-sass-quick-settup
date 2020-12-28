@@ -1,4 +1,4 @@
-# a-simple-gulp4-browsersync-sass-settup
+# a-simple-gulp4-browsersync-sass-quick-settup
 Quick settup a project use gulp 4 + browsersync + sass.
 
 ```
