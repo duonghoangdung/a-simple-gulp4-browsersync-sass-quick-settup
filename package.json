@@ -1,0 +1,26 @@
+{
+  "name": "a-simple-gulp-browsersync-sass-settup",
+  "version": "1.0.0",
+  "description": "Quick settup a project use gulp + browsersync + sass.",
+  "private": true,
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duonghoangdung/a-simple-gulp-browsersync-sass-settup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duonghoangdung/a-simple-gulp-browsersync-sass-settup/issues"
+  },
+  "homepage": "https://github.com/duonghoangdung/a-simple-gulp-browsersync-sass-settup#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

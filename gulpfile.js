@@ -1,13 +1,4 @@
-# a-simple-gulp4-browsersync-sass-settup
-Quick settup a project use gulp 4 + browsersync + sass.
 
-```
-    npm install browser-sync gulp gulp-sass --save-dev
-```
-
-gulpfile.js
-
-```javascript
 const {watch, src, dest}        = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass        = require('gulp-sass');
@@ -29,4 +20,3 @@ exports.default = () => {
     watch('scss/*.scss', scss);
     watch("*.html").on('change', browserSync.reload);
 }
-```
