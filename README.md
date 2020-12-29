@@ -1,11 +1,20 @@
 # a-simple-gulp4-browsersync-sass-quick-settup
 Quick settup a project use gulp 4 + browsersync + sass.
 
+## Install the gulp command line utility
+
 ```
-    npm install browser-sync gulp gulp-sass --save-dev
+npm install --global gulp-cli
 ```
 
-gulpfile.js
+## Install the gulp, gulp-sass, browser-sync package in your devDependencies
+
+```
+    npm install gulp gulp-sass browser-sync --save-dev
+```
+
+## Create a gulpfile
+Using your text editor, create a file named __gulpfile.js__ in your project root with these contents:
 
 ```javascript
 const {watch, src, dest}        = require('gulp');
@@ -29,4 +38,11 @@ exports.default = () => {
     watch('scss/*.scss', scss);
     watch("*.html").on('change', browserSync.reload);
 }
+```
+
+## Test it
+Run the gulp command in your project directory:
+
+```
+gulp
 ```
