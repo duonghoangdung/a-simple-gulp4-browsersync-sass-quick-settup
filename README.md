@@ -1,4 +1,4 @@
-# a-simple-gulp4-browsersync-sass-quick-settup
+# A Simple Gulp4 - Browsersync - Sass quick settup
 Quick settup a project use gulp 4 + browsersync + sass.
 
 ## Install the gulp command line utility
