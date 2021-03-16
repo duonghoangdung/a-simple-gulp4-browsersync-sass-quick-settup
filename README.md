@@ -1,11 +1,7 @@
 # A Simple Gulp4 - Browsersync - Sass quick settup
 Quick settup a project use gulp 4 + browsersync + sass.
 
-## Install the gulp command line utility
 
-```
-npm install gulp-cli --save-dev
-```
 
 ## Create project directory
 
@@ -23,6 +19,12 @@ cd a-simple-gulp4-browsersync-sass-quick-settup
 npm init
 ```
 This will guide you through giving your project a name, version, description, etc.
+
+## Install the gulp command line utility
+
+```
+npm install gulp-cli --save-dev
+```
 
 ## Install the gulp, gulp-sass, browser-sync package in your devDependencies
 
