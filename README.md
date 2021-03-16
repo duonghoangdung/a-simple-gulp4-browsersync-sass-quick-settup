@@ -16,7 +16,7 @@ cd a-simple-gulp4-browsersync-sass-quick-settup
 ## Create a package.json file in your project directory
 
 ```
-npm init
+npm init -
 ```
 This will guide you through giving your project a name, version, description, etc.
 
