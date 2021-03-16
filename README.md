@@ -40,7 +40,7 @@ const sass        = require('gulp-sass');
 
 // Compile sass into CSS & auto-inject into browsers
 const scss = () => {
-    return src("scss/*.scss")
+    return src("scss/**/*.scss")
         .pipe(sass())
         .pipe(dest("dist/assets/css"))
         .pipe(browserSync.stream());
@@ -52,8 +52,8 @@ exports.default = () => {
         server: "./"
     });
     // Watch the files when the files have change
-    watch('scss/*.scss', scss);
-    watch("*.html").on('change', browserSync.reload);
+    watch('scss/**/*.scss', scss);
+    watch("**/*.html").on('change', browserSync.reload);
 }
 ```
 
