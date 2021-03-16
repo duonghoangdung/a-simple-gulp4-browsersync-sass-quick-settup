@@ -4,7 +4,7 @@ Quick settup a project use gulp 4 + browsersync + sass.
 ## Install the gulp command line utility
 
 ```
-npm install --global gulp-cli
+npm install gulp-cli --save-dev
 ```
 
 ## Create project directory
